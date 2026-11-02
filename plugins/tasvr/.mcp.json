@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tasvr": {
+      "type": "http",
+      "url": "https://www.tasvr.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.tasvr_api_key}"
+      }
+    }
+  }
+}

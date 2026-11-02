@@ -1,0 +1,17 @@
+{
+  "name": "tasvr",
+  "description": "TASVR: Indian photography for brands and agencies, generated from a real catalog of communities, places, wardrobe and light.",
+  "owner": {
+    "name": "TASVR",
+    "email": "support@tasvr.ai",
+    "url": "https://www.tasvr.ai"
+  },
+  "plugins": [
+    {
+      "name": "tasvr",
+      "source": "./plugins/tasvr",
+      "category": "design",
+      "tags": ["images", "photography", "india", "marketing"]
+    }
+  ]
+}
