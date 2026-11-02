@@ -1,7 +1,7 @@
 {
   "name": "tasvr",
   "displayName": "TASVR",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Make Indian photography from inside Claude: real communities, real places, real wardrobe. Plans a shoot from your brief, asks who should be in it, shows the cost, then renders through the TASVR engine.",
   "author": {
     "name": "TASVR",
@@ -21,14 +21,5 @@
   "documentationUrl": "https://www.tasvr.ai/mcp",
   "supportUrl": "https://www.tasvr.ai/mcp",
   "privacyPolicyUrl": "https://www.tasvr.ai/privacy",
-  "termsOfServiceUrl": "https://www.tasvr.ai/terms",
-  "userConfig": {
-    "tasvr_api_key": {
-      "type": "string",
-      "title": "TASVR API key",
-      "description": "From tasvr.ai: Settings > Developer & API Keys > Create key. Starts with tasvr_sk_live_. Pro and Enterprise plans.",
-      "sensitive": true,
-      "required": true
-    }
-  }
+  "termsOfServiceUrl": "https://www.tasvr.ai/terms"
 }

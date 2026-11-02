@@ -9,8 +9,6 @@ communities and locations.
 ## What you need
 
 - A TASVR Pro or Enterprise plan.
-- An API key from tasvr.ai: **Settings → Developer & API Keys → Create
-  key**. It starts with `tasvr_sk_live_` and is shown only once.
 
 ## Install (Claude Code)
 
@@ -19,8 +17,12 @@ communities and locations.
 /plugin install tasvr@tasvr
 ```
 
-Claude Code asks for your API key when you enable the plugin and keeps it
-in your system's secure store.
+The first time Claude uses TASVR it opens TASVR's sign-in. Sign in with your
+TASVR account and approve Claude on the consent page. You can disconnect it
+any time in Settings → Developer & API Keys on tasvr.ai.
+
+In claude.ai you can also connect without the plugin: Settings → Connectors →
+Add custom connector → `https://www.tasvr.ai/api/mcp`.
 
 ## What's inside
 
