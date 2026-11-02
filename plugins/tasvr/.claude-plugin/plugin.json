@@ -1,7 +1,7 @@
 {
   "name": "tasvr",
   "displayName": "TASVR",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Make Indian photography from inside Claude: real communities, real places, real wardrobe. Plans a shoot from your brief, asks who should be in it, shows the cost, then renders through the TASVR engine.",
   "author": {
     "name": "TASVR",

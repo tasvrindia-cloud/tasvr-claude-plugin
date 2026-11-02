@@ -65,9 +65,13 @@ can't be undone.
   `task_id` straight away.
 - Poll `get_generation_status` every few seconds until each one is
   `completed` or `failed`. A render takes up to about two minutes.
-- Show each finished image with its `image_url`. Signed links last an hour,
-  so tell the person to download the ones they want to keep. Everything is
-  also saved in their TASVR gallery.
+- In Claude and other apps that show TASVR's view, each render appears in
+  the chat by itself as it finishes, with a Download button. When the whole
+  set is done, call `show_results` with all the `generation_id`s to lay them
+  out side by side.
+- Elsewhere, give each `image_url`. Signed links last an hour, so tell the
+  person to download the ones they want to keep. Everything is also saved
+  in their TASVR gallery.
 - For changes, use `edit_image` on that `generation_id` rather than
   re-rendering from scratch.
 
