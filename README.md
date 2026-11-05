@@ -1,5 +1,7 @@
 # TASVR for Claude
 
+[![mcptry](https://mcptry.com/badge/ai.tasvr/tasvr)](https://mcptry.com/servers/ai.tasvr/tasvr)
+
 Make Indian photography from inside Claude. You describe the brief, and
 Claude plans the shots, asks who should be in them, shows you the credit
 cost, and renders them through the TASVR engine. Every person, place and
